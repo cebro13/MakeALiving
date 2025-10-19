@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=1280 height=720 tabindex="-1" style="width: 1280px; height: 720px; background: #000000"></canvas>
-    <script src="Build/BUILD WEB 06.loader.js"></script>
+    <script src="Build/BuildWeb06.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/BUILD WEB 06.data.unityweb",
-        frameworkUrl: "Build/BUILD WEB 06.framework.js.unityweb",
-        codeUrl: "Build/BUILD WEB 06.wasm.unityweb",
+        dataUrl: "Build/BuildWeb06.data.unityweb",
+        frameworkUrl: "Build/BuildWeb06.framework.js.unityweb",
+        codeUrl: "Build/BuildWeb06.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Charles-EtienneB",
         productName: "Gagner sa vie",
